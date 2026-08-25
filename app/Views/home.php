@@ -32,9 +32,12 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="home-slider slide-animate owl-carousel owl-theme mb-2" data-owl-options="{
-                    'loop': false,
+                    'loop': true,
                     'dots': true,
-                    'nav': false
+                    'nav': false,
+                    'autoplay': true,
+                    'autoplayTimeout': 15000,
+                    'autoplayHoverPause': true
                 }">
                     <div class="home-slide home-slide1 banner banner-md-vw banner-sm-vw d-flex align-items-center" style="overflow: hidden; border-radius: 12px; background-color: #f7f3ed;">
                         <a href="<?= base_url('shop') ?>" class="w-100 h-100 d-block text-decoration-none">
