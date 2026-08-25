@@ -67,6 +67,10 @@ $routes->group('admin', static function ($routes) {
 
     // AI Generator Routes
     $routes->post('ai/generate', 'Admin\AiGenerator::generate');
+
+    // Homepage Banners
+    $routes->get('homepage', 'Admin\Homepage::index');
+    $routes->post('homepage/update', 'Admin\Homepage::update');
 });
 
 /*

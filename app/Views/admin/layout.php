@@ -119,6 +119,9 @@
             <li class="<?= url_is('admin/categories*') ? 'active' : '' ?>">
                 <a href="<?= base_url('admin/categories') ?>"><i class="fa fa-tags"></i> Categories</a>
             </li>
+            <li class="<?= url_is('admin/homepage*') ? 'active' : '' ?>">
+                <a href="<?= base_url('admin/homepage') ?>"><i class="fa fa-images"></i> Homepage Banners</a>
+            </li>
             <li class="mt-4 border-top border-secondary pt-3">
                 <a href="<?= base_url('/') ?>" target="_blank"><i class="fa fa-external-link-alt"></i> View Main Site</a>
             </li>
