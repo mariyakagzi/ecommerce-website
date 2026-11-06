@@ -56,6 +56,12 @@ class Sitemap extends BaseController
                 'priority'   => '0.6',
             ],
             [
+                'url'        => $baseUrl . 'app-development',
+                'lastmod'    => date('Y-m-d'),
+                'changefreq' => 'monthly',
+                'priority'   => '0.8',
+            ],
+            [
                 'url'        => $baseUrl . 'contact',
                 'lastmod'    => date('Y-m-d'),
                 'changefreq' => 'monthly',

@@ -642,5 +642,50 @@
             </div>
         </div>
     </div>
+
+    <!-- Software & App Development (above footer) -->
+    <section class="kv-appdev-home" style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-top: 4px solid #C5A059; border-bottom: 4px solid #1D5EB8; padding: 55px 0;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <span class="text-uppercase font-weight-bold" style="color:#FDE047; letter-spacing:1px; font-size:0.9rem;">Technology Services</span>
+                    <h2 class="text-white font-weight-bold mt-1 mb-3" style="font-family:'Urbanist',sans-serif; font-size:2.2rem; font-weight:800; line-height:1.25;">
+                        Android App, Mobile &amp; Software Development
+                    </h2>
+                    <p class="mb-3" style="color:#CBD5E1; font-size:1.05rem; line-height:1.8;">
+                        Beyond products, Kagzi Ventures is also a software development organization based in Indore. We build
+                        <strong class="text-white">Android apps, cross-platform mobile apps and custom software applications</strong>
+                        that help businesses manage orders, customers and operations more efficiently.
+                    </p>
+                    <a href="<?= base_url('app-development') ?>" class="btn font-weight-bold mr-2 mb-2" style="background:#1D5EB8; color:#fff; border:1px solid #C5A059;">
+                        Explore Development Services <i class="fa fa-arrow-right ml-1"></i>
+                    </a>
+                    <a href="https://wa.me/919753875213?text=<?= rawurlencode('Hi Kagzi Ventures, I would like to discuss an app / software development project.') ?>" target="_blank" rel="noopener" class="btn font-weight-bold mb-2" style="background:#25D366; color:#fff; border-color:#25D366;">
+                        <i class="fab fa-whatsapp mr-1"></i> Discuss Your Project
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <?php
+                        $devCards = [
+                            ['fab fa-android', '#16A34A', 'Android Apps', 'Native Android applications built with Kotlin / Java.'],
+                            ['fa fa-mobile-alt', '#38BDF8', 'Mobile Development', 'Cross-platform apps for Android and iOS.'],
+                            ['fa fa-laptop-code', '#A78BFA', 'Software Applications', 'Custom web &amp; business software, billing, CRM, inventory.'],
+                            ['fa fa-tools', '#FBBF24', 'Support &amp; Maintenance', 'Updates, hosting and ongoing technical support.'],
+                        ];
+                        foreach ($devCards as $c): ?>
+                            <div class="col-sm-6 mb-3">
+                                <div class="h-100 p-3" style="background: rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:12px;">
+                                    <i class="<?= $c[0] ?> mb-2" style="font-size:1.8rem; color:<?= $c[1] ?>;"></i>
+                                    <h5 class="text-white font-weight-bold mb-1" style="font-family:'Urbanist',sans-serif; font-size:1.1rem;"><?= $c[2] ?></h5>
+                                    <p class="mb-0 small" style="color:#CBD5E1; line-height:1.55;"><?= $c[3] ?></p>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <?= $this->endSection() ?>

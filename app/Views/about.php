@@ -142,6 +142,41 @@
                 </div>
             </div>
 
+            <!-- Software & App Development -->
+            <div class="mb-5" id="software-app-development">
+                <div class="text-center mb-4">
+                    <span class="text-uppercase font-weight-bold" style="font-family: 'Urbanist', sans-serif; color: #1D5EB8; letter-spacing: 1px; font-size: 0.9rem;">Our Technology Division</span>
+                    <h3 class="title font-weight-bold mt-1 mb-1" style="font-family: 'Urbanist', sans-serif; font-size: 2rem; font-weight: 800; color: #0F172A !important;">Software &amp; App Development</h3>
+                    <p class="text-muted mb-0" style="font-size: 1rem;">Android apps, mobile development and custom software from Indore.</p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <p class="text-muted" style="font-size: 1.05rem; line-height: 1.8;">
+                            In addition to our product business, Kagzi Ventures is an organization engaged in <strong>Android app development, mobile application development and software application development</strong>. We work with retailers, service providers, start-ups and growing businesses to design, build, launch and maintain the digital tools they need.
+                        </p>
+                        <ul class="list-unstyled mb-3">
+                            <li class="mb-2"><i class="fab fa-android mr-2" style="color:#16A34A;"></i> <strong>Android app development</strong> &ndash; native apps built with Kotlin and Java</li>
+                            <li class="mb-2"><i class="fa fa-mobile-alt mr-2" style="color:#1D5EB8;"></i> <strong>Mobile development services</strong> &ndash; cross-platform apps for Android and iOS</li>
+                            <li class="mb-2"><i class="fa fa-laptop-code mr-2" style="color:#7C3AED;"></i> <strong>Software &amp; web applications</strong> &ndash; billing, CRM, inventory, catalogue and e-commerce systems</li>
+                            <li class="mb-2"><i class="fa fa-tools mr-2" style="color:#D97706;"></i> <strong>Maintenance &amp; support</strong> &ndash; updates, hosting and technical assistance</li>
+                        </ul>
+                        <a href="<?= base_url('app-development') ?>" class="btn btn-primary font-weight-bold" style="background:#1D5EB8; border-color:#1D5EB8;">
+                            View Development Services <i class="fa fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-5 mt-4 mt-lg-0">
+                        <div class="p-4 text-white" style="border-radius:14px; background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); border-bottom: 4px solid #C5A059;">
+                            <h5 class="text-white font-weight-bold mb-3" style="font-family:'Urbanist',sans-serif;">Company Snapshot</h5>
+                            <p class="mb-2 small" style="color:#CBD5E1;"><strong class="text-white">Business name:</strong> Kagzi Ventures</p>
+                            <p class="mb-2 small" style="color:#CBD5E1;"><strong class="text-white">Activities:</strong> Storage, gifting &amp; utility products; Android, mobile &amp; software development</p>
+                            <p class="mb-2 small" style="color:#CBD5E1;"><strong class="text-white">Address:</strong> 822 Flat No.7 Khatiwala Tank, Indore, Madhya Pradesh 452014, India</p>
+                            <p class="mb-2 small" style="color:#CBD5E1;"><strong class="text-white">Phone:</strong> +91 9753875213</p>
+                            <p class="mb-0 small" style="color:#CBD5E1;"><strong class="text-white">Email:</strong> info@kagziventures.in</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Growing Together (Material UI Compact & Neat Surface) -->
             <div class="mui-card-surface text-center mb-4 mx-auto position-relative overflow-hidden" style="max-width: 860px; padding: 24px 32px;">
                 <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #1D5EB8 0%, #C5A059 50%, #154890 100%);"></div>
@@ -149,7 +184,7 @@
                 <h4 class="mb-2" style="font-size: 1.4rem; color: #0F172A;">Growing Together</h4>
                 
                 <p class="mb-2" style="font-size: 0.98rem; line-height: 1.6; max-width: 760px; margin-left: auto; margin-right: auto;">
-                    Kagzi Ventures is a growing Indian brand, and every order helps us move one step closer to our vision of creating a trusted name in <strong style="color: #0F172A; font-weight: 700;">utility, storage, gifting, and everyday lifestyle products</strong>. We are continuously exploring new ideas, products, and solutions to bring more value to our customers.
+                    Kagzi Ventures is a growing Indian brand, and every order and project helps us move one step closer to our vision of creating a trusted name in <strong style="color: #0F172A; font-weight: 700;">utility, storage, gifting, everyday lifestyle products, and software &amp; app development</strong>. We are continuously exploring new ideas, products, and solutions to bring more value to our customers.
                 </p>
                 
                 <p class="font-weight-bold mb-3" style="color: #1D5EB8; font-size: 1.05rem;">

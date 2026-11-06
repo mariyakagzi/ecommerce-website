@@ -13,6 +13,17 @@ class Pages extends BaseController
         return view('about', $data);
     }
 
+    public function appDevelopment()
+    {
+        $data = [
+            'title'           => 'Android App, Mobile & Software Development Services in Indore - Kagzi Ventures',
+            'metaDescription' => 'Kagzi Ventures, Indore offers Android app development, mobile app development and custom software application development services for businesses. Contact us for a free consultation.',
+            'metaKeywords'    => 'Android app development Indore, mobile app development, software development company Indore, custom software, web application development, Kagzi Ventures',
+        ];
+
+        return view('app-development', $data);
+    }
+
     public function contact()
     {
         $data = [

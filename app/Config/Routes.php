@@ -29,6 +29,7 @@ $routes->set404Override();
 
 $routes->get('/', 'Home::index');
 $routes->get('about', 'Pages::about');
+$routes->get('app-development', 'Pages::appDevelopment');
 $routes->get('contact', 'Pages::contact');
 $routes->post('contact/send', 'Pages::sendContact');
 $routes->get('privacy-policy', 'Pages::privacyPolicy');

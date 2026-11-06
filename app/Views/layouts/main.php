@@ -18,8 +18,42 @@ if (!isset($allCategories) || empty($allCategories)) {
     <title><?= esc($title ?? 'Porto - Bootstrap eCommerce Template') ?></title>
 
     <meta name="keywords" content="<?= esc($metaKeywords ?? 'Kagzi Ventures, Ecommerce, Shopping, Online Store') ?>" />
-    <meta name="description" content="<?= esc($metaDescription ?? 'Kagzi Ventures - High quality products, best deals, fast shipping.') ?>">
+    <meta name="description" content="<?= esc($metaDescription ?? 'Kagzi Ventures, Indore - storage solutions, gifting and utility products, plus Android app, mobile and software application development services.') ?>">
     <meta name="author" content="Kagzi Ventures">
+    <link rel="canonical" href="<?= esc(current_url()) ?>">
+    <meta property="og:site_name" content="Kagzi Ventures">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<?= esc($title ?? 'Kagzi Ventures') ?>">
+    <meta property="og:url" content="<?= esc(current_url()) ?>">
+    <script type="application/ld+json">
+    <?= json_encode([
+        '@context'    => 'https://schema.org',
+        '@type'       => 'Organization',
+        'name'        => 'Kagzi Ventures',
+        'url'         => base_url('/'),
+        'logo'        => base_url('assets/images/logo-kagzi.jpeg'),
+        'description' => 'Kagzi Ventures sells storage solutions, gifting and utility products, and provides Android app development, mobile app development and software application development services.',
+        'email'       => 'info@kagziventures.in',
+        'telephone'   => '+91-9753875213',
+        'address'     => [
+            '@type'           => 'PostalAddress',
+            'streetAddress'   => '822 Flat No.7 Khatiwala Tank',
+            'addressLocality' => 'Indore',
+            'addressRegion'   => 'Madhya Pradesh',
+            'postalCode'      => '452014',
+            'addressCountry'  => 'IN',
+        ],
+        'contactPoint' => [
+            '@type'             => 'ContactPoint',
+            'telephone'         => '+91-9753875213',
+            'email'             => 'info@kagziventures.in',
+            'contactType'       => 'customer service',
+            'areaServed'        => 'IN',
+            'availableLanguage' => ['en', 'hi'],
+        ],
+        'sameAs' => ['https://www.instagram.com/kagziventures/'],
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) ?>
+    </script>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?= base_url('assets/images/icons/favicon.png') ?>">
@@ -793,6 +827,11 @@ if (!isset($allCategories) || empty($allCategories)) {
                                     <i class="fa fa-gift mr-2" style="font-size: 17px; color: #fef08a;"></i> Shitabi Gifts
                                 </a>
                             </li>
+                            <li class="<?= url_is('app-development*') ? 'active' : '' ?>">
+                                <a href="<?= base_url('app-development') ?>" class="text-white py-3 px-4 font-weight-semibold d-flex align-items-center" style="font-size: 15px; text-transform: uppercase;">
+                                    <i class="fa fa-laptop-code mr-2" style="font-size: 17px; color: #fef08a;"></i> App Development
+                                </a>
+                            </li>
                             <li class="<?= url_is('contact*') ? 'active' : '' ?>">
                                 <a href="<?= base_url('contact') ?>" class="text-white py-3 px-4 font-weight-semibold d-flex align-items-center" style="font-size: 15px; text-transform: uppercase;">
                                     <i class="fa fa-envelope mr-2" style="font-size: 17px; color: #fef08a;"></i> Contact Us
@@ -828,7 +867,7 @@ if (!isset($allCategories) || empty($allCategories)) {
                                 At Kagzi Ventures, we build practical, high-quality storage solutions, organizers, pouches, and utility products that help keep your home and lifestyle clutter-free.
                             </p>
                             <p class="luxury-footer-text mb-3">
-                                Our mission is to deliver innovative, reliable, and thoughtful products that make everyday storage effortless.
+                                Our mission is to deliver innovative, reliable, and thoughtful products that make everyday storage effortless. We also provide Android app, mobile and software application development services.
                             </p>
                             <a href="<?= base_url('about') ?>" class="btn-footer-readmore">
                                 Read More <i class="fa fa-arrow-right"></i>
@@ -901,6 +940,12 @@ if (!isset($allCategories) || empty($allCategories)) {
                                 <li class="luxury-link-item">
                                     <a href="<?= base_url('about') ?>">
                                         <span><i class="fa fa-info-circle text-info link-icon"></i> About Us</span>
+                                        <i class="fa fa-chevron-right text-muted small"></i>
+                                    </a>
+                                </li>
+                                <li class="luxury-link-item">
+                                    <a href="<?= base_url('app-development') ?>">
+                                        <span><i class="fa fa-laptop-code link-icon" style="color: #16a34a;"></i> App Development</span>
                                         <i class="fa fa-chevron-right text-muted small"></i>
                                     </a>
                                 </li>
@@ -1045,6 +1090,7 @@ if (!isset($allCategories) || empty($allCategories)) {
                         </ul>
                     </li>
                     <li class="<?= url_is('shitabi-gifts*') ? 'active' : '' ?>"><a href="<?= base_url('shitabi-gifts') ?>"><i class="fa fa-gift"></i>Shitabi Gifts</a></li>
+                    <li class="<?= url_is('app-development*') ? 'active' : '' ?>"><a href="<?= base_url('app-development') ?>"><i class="fa fa-laptop-code"></i>App Development</a></li>
                     <li><a href="<?= base_url('contact') ?>"><i class="sicon-envelope"></i>Contact Us</a></li>
                 </ul>
 
