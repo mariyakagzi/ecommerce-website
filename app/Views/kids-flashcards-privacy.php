@@ -8,7 +8,7 @@ $h = 'font-family: \'Urbanist\', sans-serif; color: #0F172A; font-size: 1.4rem;'
     <div class="page-header page-header-bg text-left" style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); padding: 65px 0; border-bottom: 4px solid #1D5EB8;">
         <div class="container">
             <h1 class="text-white font-weight-bold mb-2" style="font-family: 'Urbanist', sans-serif; font-size: 2.6rem; font-weight: 800;">Privacy Policy &ndash; Kids Learning Flashcards</h1>
-            <p class="font-weight-semibold mb-0" style="font-family: 'Albert Sans', sans-serif; font-size: 1.15rem; letter-spacing: 0.4px; color: #93C5FD !important;">Android app by Kagzi Ventures &bull; Package: com.kids.kidsflashcard</p>
+            <p class="font-weight-semibold mb-0" style="font-family: 'Albert Sans', sans-serif; font-size: 1.15rem; letter-spacing: 0.4px; color: #93C5FD !important;">Android app by Mariya Hyderabadwala &bull; Package: com.kids.kidsflashcard</p>
         </div>
     </div>
 
@@ -33,9 +33,9 @@ $h = 'font-family: \'Urbanist\', sans-serif; color: #0F172A; font-size: 1.4rem;'
                             <strong>App name:</strong> Kids Learning Flashcards<br>
                             <strong>Package name:</strong> com.kids.kidsflashcard<br>
                             <strong>Platform:</strong> Android (Google Play Store)<br>
-                            <strong>Developer / publisher:</strong> Kagzi Ventures<br>
+                            <strong>Developer / publisher:</strong> Mariya Hyderabadwala<br>
                             <strong>Developer address:</strong> 822 Flat No.7 Khatiwala Tank, Indore, Madhya Pradesh 452014, India<br>
-                            <strong>Developer email:</strong> <a href="mailto:info@kagziventures.in">info@kagziventures.in</a><br>
+                            <strong>Developer email:</strong> <a href="mailto:mariyahkagzi12@gmail.com">mariyahkagzi12@gmail.com</a><br>
                             <strong>Developer website:</strong> <a href="<?= base_url('/') ?>"><?= esc(rtrim(base_url(), '/')) ?></a><br>
                             <strong>Effective date:</strong> 7 November 2026
                         </div>
@@ -51,7 +51,7 @@ $h = 'font-family: \'Urbanist\', sans-serif; color: #0F172A; font-size: 1.4rem;'
                             <h3 class="font-weight-bold mt-4 mb-3" style="<?= $h ?>">1. Overview</h3>
                             <p>
                                 This Privacy Policy applies to the Android application <strong>Kids Learning Flashcards</strong>
-                                (package <code>com.kids.kidsflashcard</code>), developed and published by <strong>Kagzi Ventures</strong>,
+                                (package <code>com.kids.kidsflashcard</code>), developed and published by <strong>Mariya Hyderabadwala</strong>,
                                 Indore, Madhya Pradesh, India ("we", "us", "our", "the app"). It explains how the app treats user
                                 information. We believe in providing a safe, educational and fun learning environment free of
                                 distractions, advertising, tracking and personal data collection.
@@ -79,7 +79,7 @@ $h = 'font-family: \'Urbanist\', sans-serif; color: #0F172A; font-size: 1.4rem;'
                             </p>
                             <ul class="pl-4">
                                 <li>We do not knowingly collect personal information from children under 13 (or under the applicable age of consent in any country).</li>
-                                <li>If a parent or guardian believes a child has shared personal information with us, for example by emailing us, please contact us at <a href="mailto:info@kagziventures.in">info@kagziventures.in</a> and we will delete it promptly.</li>
+                                <li>If a parent or guardian believes a child has shared personal information with us, for example by emailing us, please contact us at <a href="mailto:mariyahkagzi12@gmail.com">mariyahkagzi12@gmail.com</a> and we will delete it promptly.</li>
                             </ul>
 
                             <h3 class="font-weight-bold mt-5 mb-3" style="<?= $h ?>">4. Google Play Families Policy</h3>
@@ -121,9 +121,9 @@ $h = 'font-family: \'Urbanist\', sans-serif; color: #0F172A; font-size: 1.4rem;'
                             <h3 class="font-weight-bold mt-5 mb-3" style="<?= $h ?>">9. Contact Us</h3>
                             <p>For any question about this policy or the safety of your child while using the app, contact the developer:</p>
                             <div class="p-3" style="background:#F1F5F9; border-radius:8px;">
-                                <strong>Kagzi Ventures</strong> (developer of Kids Learning Flashcards)<br>
+                                <strong>Mariya Hyderabadwala</strong> (Developer of Kids Learning Flashcards)<br>
                                 822 Flat No.7 Khatiwala Tank, Indore, Madhya Pradesh 452014, India<br>
-                                Email: <a href="mailto:info@kagziventures.in">info@kagziventures.in</a><br>
+                                Email: <a href="mailto:mariyahkagzi12@gmail.com">mariyahkagzi12@gmail.com</a><br>
                                 Phone: <a href="tel:+919753875213">+91 9753875213</a>
                             </div>
                         </div>

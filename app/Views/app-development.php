@@ -170,7 +170,7 @@ $tech = ['Kotlin', 'Java', 'Flutter', 'React Native', 'PHP', 'CodeIgniter', 'Lar
                         </div>
                         <div class="flex-grow-1 mb-2">
                             <h4 class="font-weight-bold mb-1" style="font-family:'Urbanist',sans-serif; color:#0F172A;">Our Android Apps</h4>
-                            <p class="mb-0 text-muted"><strong>Kids Learning Flashcards</strong> (com.kids.kidsflashcard) &ndash; an ad-free educational flashcard app for toddlers and preschoolers, published by Kagzi Ventures.</p>
+                            <p class="mb-0 text-muted"><strong>Kids Learning Flashcards</strong> (com.kids.kidsflashcard) &ndash; an ad-free educational flashcard app for toddlers and preschoolers, developed by Mariya Hyderabadwala.</p>
                         </div>
                         <a href="<?= base_url('kids-learning-flashcards-privacy') ?>" class="btn btn-outline-primary font-weight-bold mb-2">Privacy Policy <i class="fa fa-arrow-right ml-1"></i></a>
                     </div>
