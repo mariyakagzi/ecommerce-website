@@ -1082,6 +1082,8 @@ if (!isset($allCategories) || empty($allCategories)) {
                         <a href="<?= base_url('privacy-policy') ?>" class="mr-3">Privacy Policy</a>
                         <span class="text-muted mr-3">|</span>
                         <a href="<?= base_url('terms-conditions') ?>" class="mr-3">Terms of Use</a>
+                        <span class="text-muted mr-3">|</span>
+                        <a href="<?= base_url('kids-learning-flashcards-privacy') ?>" class="mr-3">App Privacy</a>
                         <a href="#top" class="scroll-top-btn ml-2" title="Back to top">
                             <i class="fa fa-chevron-up"></i>
                         </a>

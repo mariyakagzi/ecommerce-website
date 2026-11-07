@@ -42,6 +42,17 @@ class Pages extends BaseController
         return view('privacy-policy', $data);
     }
 
+    public function kidsFlashcardsPrivacy()
+    {
+        $data = [
+            'title'           => 'Privacy Policy - Kids Learning Flashcards (Android App) - Kagzi Ventures',
+            'metaDescription' => 'Privacy Policy for the Kids Learning Flashcards Android app (com.kids.kidsflashcard) by Kagzi Ventures, Indore. The app collects no personal data, has no ads and complies with COPPA and Google Play Families Policy.',
+            'metaKeywords'    => 'Kids Learning Flashcards privacy policy, com.kids.kidsflashcard, Kagzi Ventures, COPPA, Google Play Families',
+        ];
+
+        return view('kids-flashcards-privacy', $data);
+    }
+
     public function terms()
     {
         $data = [

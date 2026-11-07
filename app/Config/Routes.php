@@ -33,6 +33,7 @@ $routes->get('app-development', 'Pages::appDevelopment');
 $routes->get('contact', 'Pages::contact');
 $routes->post('contact/send', 'Pages::sendContact');
 $routes->get('privacy-policy', 'Pages::privacyPolicy');
+$routes->get('kids-learning-flashcards-privacy', 'Pages::kidsFlashcardsPrivacy');
 $routes->get('terms-conditions', 'Pages::terms');
 $routes->get('shop', 'Shop::index');
 $routes->get('shitabi-gifts', 'Shop::shitabiGifts');

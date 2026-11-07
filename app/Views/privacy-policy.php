@@ -124,6 +124,12 @@
                                 <p class="mb-0">Phone / WhatsApp: <a href="https://wa.me/919753875213" style="color: #1D5EB8;">+91 97538 75213</a></p>
                             </div>
 
+                            <p class="mt-3">
+                                <strong>Mobile apps:</strong> Kagzi Ventures also publishes Android apps. The privacy policy for
+                                <em>Kids Learning Flashcards</em> (com.kids.kidsflashcard) is available at
+                                <a href="<?= base_url('kids-learning-flashcards-privacy') ?>" style="color: #1D5EB8;">Kids Learning Flashcards Privacy Policy</a>.
+                            </p>
+
                             <h3 class="font-weight-bold mt-5 mb-3" style="font-family: 'Urbanist', sans-serif; color: #0F172A; font-size: 1.4rem;">11. Governing Law &amp; Jurisdiction</h3>
                             <p>
                                 This Privacy Policy shall be governed by and construed in accordance with the laws of India.

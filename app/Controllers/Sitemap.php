@@ -74,6 +74,12 @@ class Sitemap extends BaseController
                 'priority'   => '0.3',
             ],
             [
+                'url'        => $baseUrl . 'kids-learning-flashcards-privacy',
+                'lastmod'    => date('Y-m-d'),
+                'changefreq' => 'yearly',
+                'priority'   => '0.3',
+            ],
+            [
                 'url'        => $baseUrl . 'terms-conditions',
                 'lastmod'    => date('Y-m-d'),
                 'changefreq' => 'yearly',

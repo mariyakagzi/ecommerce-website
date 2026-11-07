@@ -161,6 +161,22 @@ $tech = ['Kotlin', 'Java', 'Flutter', 'React Native', 'PHP', 'CodeIgniter', 'Lar
                 </section>
             <?php endforeach; ?>
 
+            <!-- Our published apps -->
+            <section id="our-apps" class="mt-5 mb-4">
+                <div class="card border-0" style="border-radius: 14px; border: 1px solid #E2E8F0 !important; box-shadow: 0 4px 14px rgba(0,0,0,0.04);">
+                    <div class="card-body p-4 d-flex align-items-center flex-wrap">
+                        <div class="d-flex align-items-center justify-content-center text-white mr-3 mb-2" style="width:58px; height:58px; border-radius:14px; background:#16A34A;">
+                            <i class="fab fa-android" style="font-size:28px;"></i>
+                        </div>
+                        <div class="flex-grow-1 mb-2">
+                            <h4 class="font-weight-bold mb-1" style="font-family:'Urbanist',sans-serif; color:#0F172A;">Our Android Apps</h4>
+                            <p class="mb-0 text-muted"><strong>Kids Learning Flashcards</strong> (com.kids.kidsflashcard) &ndash; an ad-free educational flashcard app for toddlers and preschoolers, published by Kagzi Ventures.</p>
+                        </div>
+                        <a href="<?= base_url('kids-learning-flashcards-privacy') ?>" class="btn btn-outline-primary font-weight-bold mb-2">Privacy Policy <i class="fa fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+            </section>
+
             <!-- Process -->
             <div class="text-center mt-5 mb-4">
                 <span class="text-uppercase font-weight-bold" style="color:#1D5EB8; letter-spacing:1px; font-size:0.9rem;">How we work</span>
